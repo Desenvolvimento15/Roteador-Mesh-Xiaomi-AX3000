@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-   
 }
 
 @font-face { font-family: CamphorPro-Light; src: url(./fonts/CamphorPro-Light.woff) format("woff")}
@@ -10,7 +9,6 @@
 @font-face { font-family: CamphorPro-Thin; src: url(./fonts/CamphorPro-Thin.woff) format("woff")}
 @font-face {font-family: Camphor-Heavy;  src: url(./fonts/CamphorPro-Heavy.woff) format("woff")}
 @font-face { font-family: CamphorPro-Medium; src: url(./fonts/CamphorPro-Medium.woff) format("woff")}
-
 
 .f-heavy { font-family: Camphor-Heavy, sans-serif; font-weight: 900}
 .f-regular {font-family: CamphorPro-Regular, sans-serif}
@@ -319,9 +317,10 @@
 .overview-con .section2 .slogan_2 {
     position: absolute;
     text-align: center;
-    top: .265625rem;
+    top: .165625rem;
     width: 2.023438rem;
-    z-index: 10
+    z-index: 10;
+    left: 10px;
 }
 
 .overview-con .section2 .section2_img2 {
@@ -584,22 +583,22 @@
 
 .overview-con .section6 .section6_3_left>div span {
     text-align: center;
-    width: .597656rem
+    width: 1.497656rem
 }
 
 .overview-con .section6 .section6_3_left>div span:first-child {
     color: #1de948;
-    margin-top: .214844rem
+    margin-top: .012548rem
 }
 
 .overview-con .section6 .section6_3_left>div span:nth-child(2) {
     color: #1db2ff;
-    margin-top: .351563rem
+    margin-top: .251563rem
 }
 
 .overview-con .section6 .section6_3_left>div span:nth-child(3) {
     color: #1cffce;
-    margin-top: .3125rem
+    margin-top: .2125rem
 }
 
 .overview-con .section6 .section6_img3 {
@@ -618,20 +617,20 @@
 }
 
 .overview-con .section6 .section6_3_right>div span {
-    width: .597656rem
+    width: 1.597656rem
 }
 
 .overview-con .section6 .section6_3_right>div span:first-child {
     color: #1de948;
-    margin-top: .351563rem
+    margin-top: .1rem
 }
 
 .overview-con .section6 .section6_3_right>div span:nth-child(2) {
-    margin-top: .214844rem
+    margin-top: 0.114844rem
 }
 
 .overview-con .section6 .section6_3_right>div span:nth-child(3) {
-    margin-top: .234375rem
+    margin-top: .134375rem
 }
 
 .overview-con .section7 {
