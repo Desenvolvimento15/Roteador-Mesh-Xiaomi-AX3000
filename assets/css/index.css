@@ -7,18 +7,29 @@
 @font-face { font-family: CamphorPro-Regular; src: url(./fonts/CamphorPro-Regular.woff) format("woff")}
 @font-face { font-family: CamphorPro-Bold;  src: url(./fonts/CamphorPro-Bold.woff) format("woff")}
 @font-face { font-family: CamphorPro-Thin; src: url(./fonts/CamphorPro-Thin.woff) format("woff")}
-@font-face {font-family: Camphor-Heavy;  src: url(./fonts/CamphorPro-Heavy.woff) format("woff")}
+@font-face { font-family: Camphor-Heavy;  src: url(./fonts/CamphorPro-Heavy.woff) format("woff")}
 @font-face { font-family: CamphorPro-Medium; src: url(./fonts/CamphorPro-Medium.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 100; src: url(./fonts/proxima-nova-thin.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 300; src: url(./fonts/proxima-nova-light.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 400; src: url(./fonts/proxima-nova-regular.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 600; src: url(./fonts/proxima-nova-semibold.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 700; src: url(./fonts/proxima-nova-bold.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 800; src: url(./fonts/proxima-nova-extrabold.woff) format("woff")}
+@font-face { font-family: ProximaNova; font-style: normal; font-weight: 900; src: url(./fonts/proxima-nova-black.woff) format("woff")}
+  
 
-.f-heavy { font-family: Camphor-Heavy, sans-serif; font-weight: 900}
-.f-regular {font-family: CamphorPro-Regular, sans-serif}
-.f-light {font-family: CamphorPro-Light, sans-serif}
-.f-bold {font-family: CamphorPro-Bold, sans-serif;font-weight: 700}
-.f-medium {font-family: CamphorPro-Medium, sans-serif}
-.f-thin {font-family: CamphorPro-Thin, sans-serif}
-.f-nova { font-family: ProximaNova, sans-serif}
+.AX3000 .f-heavy { font-family: Camphor-Heavy, sans-serif; font-weight: 900}
+.AX3000 .f-regular {font-family: CamphorPro-Regular, sans-serif}
+.AX3000 .f-light {font-family: CamphorPro-Light, sans-serif}
+.AX3000 .f-bold {font-family: CamphorPro-Bold, sans-serif;font-weight: 700}
+.AX3000 .f-medium {font-family: CamphorPro-Medium, sans-serif}
+.AX3000 .f-thin {font-family: CamphorPro-Thin, sans-serif}
+.AX3000 .f-nova { font-family: ProximaNova, sans-serif}
+
 
 /*-------------------------------------------------------------------*/
+
+
 .AX3000 {
     width: 100%
 }
@@ -282,7 +293,7 @@
     margin-top: .160156rem
 }
 
-.AX3000 .secao1 .price-common {
+.AX3000 .secao1 .preco-comum {
     margin-top: .195313rem
 }
 
@@ -1030,12 +1041,12 @@
 }
 
 
-.xm-link {
+.link-xm {
     display: inline-block;
     text-decoration: none
 }
 
-.xm-link.xm-button {
+.link-xm.xm-button {
     background-color: initial
 }
 
@@ -1066,126 +1077,125 @@
     margin-bottom: -1PX
 }
 
-.eco_name-88 {
+.ecco_name-88 {
     font-size: .34375rem;
     line-height: .429688rem
 }
 
-.eco_name-80 {
+.ecco_name-80 {
     font-size: .3125rem;
     line-height: .390625rem
 }
 
-.eco_name-72 {
+.ecco_name-72 {
     font-size: .34375rem;
     line-height: .351563rem
 }
 
-.eco_slogan {
+.ecco_slogan {
     font-size: .1875rem;
     line-height: .234375rem
 }
 
-.eco_ksp {
+.ecco_ksp {
     font-size: .117188rem;
     line-height: .171875rem
 }
 
-.eco_name-radius {
+.ecco_name-radius {
     border-radius: .015625rem;
     font-size: .15625rem;
     line-height: .226563rem
 }
 
-.eco_ksp-title {
+.ecco_ksp-title {
     font-size: .125rem;
     line-height: .15625rem
 }
 
-.eco_ksp-text {
+.ecco_ksp-text {
     font-size: .09375rem;
     line-height: .125rem
 }
 
-.eco_ksp-item {
+.ecco_ksp-item {
     padding: .117188rem .136719rem
 }
 
-.eco_title {
+.ecco_title {
     font-size: .234375rem;
     line-height: .28125rem
 }
 
-.eco_text {
+.ecco_text {
     font-size: .117188rem;
     line-height: .15625rem
 }
 
-.eco_note {
+.ecco_note {
     font-size: .09375rem;
     line-height: .109375rem
 }
 
-.eco_number {
+.ecco_number {
     font-size: .429688rem;
     line-height: .429688rem
 }
 
-.eco_note-text {
+.ecco_note-text {
     font-size: .09375rem;
     line-height: .125rem
 }
 
-.price-common {
+.preco-comum {
     font-family: CamphorPro-Light;
     font-size: .257813rem
 }
 
-.price-common .principal-xm__from {
+.preco-comum .principal-xm__from {
     font-size: 60%;
     margin: 0 .039063rem
 }
 
-.price-common .principal-xm__sNum {
+.preco-comum .principal-xm__sNum {
     font-family: CamphorPro-Bold;
     margin: 0
 }
 
-.price-common .principal-xm__label {
+.preco-comum .principal-xm__label {
     font-size: 60%;
     margin: 0
 }
 
-.price-common .principal-xm--current .principal-xm__label {
+.preco-comum .principal-xm--current .principal-xm__label {
     font-family: CamphorPro-Bold;
     font-size: 100%
 }
 
-.price-common .principal-xm--sale {
+.preco-comum .principal-xm--sale {
     margin-right: .039063rem
 }
 
-.price-common .principal-xm--sale .principal-xm__label,
-.price-common .principal-xm--sale .principal-xm__sNum {
+.preco-comum .principal-xm--sale .principal-xm__label,
+.preco-comum .principal-xm--sale .principal-xm__sNum {
     margin: 0
 }
 
-.price-common .principal-xm--origin .principal-xm__label {
+.preco-comum .principal-xm--origin .principal-xm__label {
     font-size: 100%
 }
 
-.price-common .principal-xm--origin .principal-xm__mNum {
+.preco-comum .principal-xm--origin .principal-xm__mNum {
     margin: 0
 }
 
-
-.eco_specs-title {
+.ecco_specs-title {
     font-size: .109375rem;
     line-height: .140625rem
 }
 
-.eco_specs-label,
-.eco_specs-value {
+.ecco_specs-label,
+.ecco_specs-value {
     font-size: .070313rem;
     line-height: .101563rem
 }
